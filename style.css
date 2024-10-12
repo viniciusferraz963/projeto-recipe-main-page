@@ -10,12 +10,13 @@
 
 body {
     font-family: "Young Serif", sans-serif;
+    width: 375px;
 }
 
 /*Seção da Imagagem*/
 
 img {
-    width: 100%;
+    width: 375px;
 }
 
 /*Configurações de Texto*/
@@ -75,6 +76,7 @@ hr {
 /*Seção de Instruções*/
 
 .instructions li{
+    width: 90%;
     margin-left: 45px;
     padding: 8px;
     color: hsl(14, 45%, 36%);
@@ -115,9 +117,32 @@ footer {
 /*Responsividade*/
 
 @media screen and (min-width: 769px) {
+
+    html {
+        background-color: rgb(245, 223, 194);
+    }
+
+    body {
+        width: 650px;
+        margin: auto;
+        margin-top: 100px;
+        background-color: white;
+        border-radius: 25px;
+    }
+
     img {
-        width: 97%;
-        margin: 20px;   
-        border-radius: 15px;
+        width: 600px;
+        border-radius: 25px;
+        margin: 25px;
+    }
+
+    .instruction > li {
+        width: 100%;
+    }
+
+    footer {
+        align-items: center;
+        padding: 5px;
+        margin-bottom: 25px;
     }
 }
