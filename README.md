@@ -9,4 +9,4 @@
 
 ### Link do Projeto abaixo
 
-<a href="https://viniciusferraz963.github.io/projeto-social-links-profile/">Link do Projeto</a>
+<a href="https://viniciusferraz963.github.io/projeto-recipe-main-page/">Link do Projeto</a>
