@@ -1,0 +1,123 @@
+/*Configurações Globais*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Corpo da Página*/
+
+body {
+    font-family: "Young Serif", sans-serif;
+}
+
+/*Seção da Imagagem*/
+
+img {
+    width: 100%;
+}
+
+/*Configurações de Texto*/
+
+h1 {
+    margin: 25px;
+    color: hsl(24, 5%, 18%);
+}
+
+p, li {
+    color: hsl(30, 10%, 34%);
+}
+
+p {
+    margin: 25px;
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin: 25px;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    padding: 25px;
+}
+
+/*Seção de Preparação*/
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    margin: 30px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+.preparation ul {
+    color: hsl(14, 45%, 36%);
+    margin-left: 45px;
+    line-height: 50px;
+}
+
+.ingredients li{
+    margin-left: 60px;
+    padding: 8px;
+}
+
+hr {
+    margin: 40px;
+    border-color: hsl(330, 100%, 98%);
+}
+
+/*Seção de Instruções*/
+
+.instructions li{
+    margin-left: 45px;
+    padding: 8px;
+    color: hsl(14, 45%, 36%);
+}
+
+strong {
+    color: hsl(332, 51%, 32%);
+}
+
+/*Seção de Nutrição*/
+
+.nutrition > table{
+    width: 100%;
+    padding: 25px;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+th {
+    color: hsl(14, 45%, 36%);
+}
+
+td {
+    color: hsl(332, 51%, 32%);
+    font-weight: bolder;
+}
+
+/*Rodapé*/
+
+footer {
+    text-align: center;
+}
+
+
+/*Responsividade*/
+
+@media screen and (min-width: 769px) {
+    img {
+        width: 97%;
+        margin: 20px;   
+        border-radius: 15px;
+    }
+}
