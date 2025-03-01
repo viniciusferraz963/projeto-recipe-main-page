@@ -6,6 +6,7 @@
 
 - HTML
 - CSS
+- Flexbox
 
 ## Desenvolvido com o uso de Mobile First em 375px para mobile e 1440px para desktop.
 
