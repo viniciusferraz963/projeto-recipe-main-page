@@ -7,6 +7,6 @@
 - HTML
 - CSS
 
-## Desenvolvido com o uso de Mobile First em 375px para mobile e tablets e acima de 768px para os demais.
+## Desenvolvido com o uso de Mobile First em 375px para mobile e 1440px para desktop.
 
 <a href="https://viniciusferraz963.github.io/projeto-recipe-main-page/">Link do Projeto</a>
